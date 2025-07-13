@@ -64,7 +64,7 @@ DevOps-Pipeline-Compliancy-Automation/
 2. Increments version automatically
 3. Commits changes and creates a PR
 4. Triggers Azure DevOps build pipelines
-5. Approves pipelines using API auth
+5. Approves the pull request using API auth, to autocomlpete the merge and trigger the pipeline.
 
    ## 🔧 Configuration
 
