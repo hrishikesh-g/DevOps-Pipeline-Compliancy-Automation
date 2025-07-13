@@ -2,21 +2,26 @@
 
 # DevOps Pipeline Compliancy Automation 🛠️
 
-A fully automated Spring Boot tool designed to streamline version bumping, pull request creation, and Azure DevOps pipeline approvals across multiple repositories.
+This application automates the end-to-end DevOps pipeline compliance process across multiple repositories, enabling mass-scale versioning, PR handling, and pipeline triggering in a fully hands-off fashion uding Spring Boot, AzureDevOps API & GIT API.
 
 ## 🚀 Features
 
-- 🔁 Automatically updates `pom.xml` versions
-- ✅ Creates and submits pull requests via GitHub REST API
-- 🔄 Triggers Azure DevOps pipelines on PR merge
-- 🤖 Auto-approves pipelines to maintain compliance
-- 📦 Built to scale across many repos with minimal config
+⚙️ Features:
+📦 Clones repos locally from repos.txt
+🔧 Bumps pom.xml version automatically
+🌿 Pushes changes to a temp branch
+🔁 Creates PRs with auto-complete enabled
+✅ Auto-approves PRs using authorized PAT
+🧹 Deletes remote temp branches post-merge
+🧵 Uses multithreading for concurrent repo processing
+🚀 Triggers all repo pipelines simultaneously
 
 ## 🏗️ Tech Stack
 
 - **Backend:** Java, Spring Boot
 - **Automation:** Azure DevOps REST API, GitHub REST API
 - **Build Tool:** Maven
+- **Multithreading:** Executable Future
 - **Version Control:** Git
 - **IDE:** IntelliJ IDEA
 
