@@ -2,18 +2,17 @@
 
 This application automates the end-to-end DevOps pipeline compliance process across multiple repositories, enabling mass-scale versioning, PR handling, and pipeline triggering in a fully hands-off fashion uding Spring Boot, AzureDevOps API & GIT API.
 
-## 🚀 Features
+### ⚙️ Features:
 
-⚙️ Features:
+- 📁 Clones repos locally from `repos.txt`
+- 🔧 Bumps `pom.xml` version automatically
+- 🌿 Pushes changes to a temp branch
+- 🔁 Creates PRs with auto-complete enabled
+- ✅ Auto-approves PRs using authorized PAT
+- 🧹 Deletes remote temp branches post-merge
+- 🧵 Uses multithreading for concurrent repo processing
+- 🚀 Triggers all repo pipelines simultaneously
 
-📦 Clones repos locally from repos.txt
-🔧 Bumps pom.xml version automatically
-🌿 Pushes changes to a temp branch
-🔁 Creates PRs with auto-complete enabled
-✅ Auto-approves PRs using authorized PAT
-🧹 Deletes remote temp branches post-merge
-🧵 Uses multithreading for concurrent repo processing
-🚀 Triggers all repo pipelines simultaneously
 
 ## 🏗️ Tech Stack
 
