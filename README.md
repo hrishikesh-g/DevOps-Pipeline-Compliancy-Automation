@@ -5,6 +5,7 @@ This application automates the end-to-end DevOps pipeline compliance process acr
 ## 🚀 Features
 
 ⚙️ Features:
+
 📦 Clones repos locally from repos.txt
 🔧 Bumps pom.xml version automatically
 🌿 Pushes changes to a temp branch
