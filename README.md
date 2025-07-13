@@ -1,5 +1,3 @@
-# DevOps-Pipeline-Compliancy-Automation
-
 # DevOps Pipeline Compliancy Automation 🛠️
 
 This application automates the end-to-end DevOps pipeline compliance process across multiple repositories, enabling mass-scale versioning, PR handling, and pipeline triggering in a fully hands-off fashion uding Spring Boot, AzureDevOps API & GIT API.
